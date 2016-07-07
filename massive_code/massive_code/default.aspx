@@ -11,7 +11,7 @@
         .auto-style52 {
             height: 105px;
             width: 574px;
-            background-color: #4697a8;
+            background-color: #5BAABB;
         }
         .auto-style55 {
             width: 574px;
@@ -34,7 +34,7 @@
         .auto-style60 {
              height: 105px;
             width: 574px;
-            background-color: #5f4f4f;
+            background-color: #958080;
         }
 
     </style>
@@ -66,7 +66,7 @@
                     <table style="width: 73%; height: 145px;">
                     <tr>
                         <td class="auto-style57"></td>
-                        <td class="auto-style59">Ознакомьтесь с процессом разработки проекта Union Solution. Вся информация предназначена лишь для новичков программирования C# которые хотят понять каким образом строятся большие приложения от начальной идеи до финального релиза.</td>
+                        <td class="auto-style59">Union Solution - система социального общения в корпоративной сети. Изучите все части программы и разработайте на этой основе свой будущий проект. Используйте отдельные компоненты Union в качестве готовых шаблонов.</td>
                     </tr>
                 </table>
                 </td>
