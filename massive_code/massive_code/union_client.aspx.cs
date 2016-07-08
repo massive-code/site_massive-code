@@ -13,5 +13,19 @@ namespace massive_code
         {
 
         }
+
+        protected void Button_GIT_Click_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("https://github.com/massive-code/union_solution/tree/master/Union_Lan_Client");
+        }
+
+        protected void Button_Download_UnionClient_Click(object sender, EventArgs e)
+        {
+            Response.ContentType = "Application/exe";
+            Response.AppendHeader("Content-Disposition", "attachment; filename=union_client.exe");
+            Response.TransmitFile(Server.MapPath("files/union_client.exe"));
+            Response.End();
+        }
+
     }
 }

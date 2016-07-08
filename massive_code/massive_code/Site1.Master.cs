@@ -66,5 +66,10 @@ namespace massive_code
             Session["panel_user_data"] = null;
             Response.Redirect("default.aspx");
         }
+
+        protected void Button_Git_Site_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("https://github.com/massive-code/site_massive-code/tree/master/massive_code");
+        }
     }
 }

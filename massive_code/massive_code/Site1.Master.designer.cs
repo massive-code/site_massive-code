@@ -67,6 +67,15 @@ namespace massive_code {
         protected global::System.Web.UI.WebControls.Button Button_SignIn;
         
         /// <summary>
+        /// Button_Download_UnionClient элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button_Download_UnionClient;
+        
+        /// <summary>
         /// Button_Download_UnionServer элемент управления.
         /// </summary>
         /// <remarks>
@@ -76,13 +85,13 @@ namespace massive_code {
         protected global::System.Web.UI.WebControls.Button Button_Download_UnionServer;
         
         /// <summary>
-        /// Button_Download_UnionClient элемент управления.
+        /// Button_Git_Site элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_Download_UnionClient;
+        protected global::System.Web.UI.WebControls.Button Button_Git_Site;
         
         /// <summary>
         /// Button_menu_main элемент управления.
