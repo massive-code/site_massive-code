@@ -18,10 +18,12 @@ namespace massive_code
         {
             LinkButton_UserName.Visible = false;
             ImageButton_userexit.Visible = false;
-            Button_Download_UnionServer.Attributes.Add("onmouseover", "this.className='button_mouse_over1'");
-            Button_Download_UnionServer.Attributes.Add("onmouseout", "this.className='button_mouse_out1'");
-            Button_Download_UnionClient.Attributes.Add("onmouseover", "this.className='button_mouse_over1'");
-            Button_Download_UnionClient.Attributes.Add("onmouseout", "this.className='button_mouse_out1'");
+            Button_Download_UnionServer.Attributes.Add("onmouseover", "this.className='button_masterpage_union_mouse_over'");
+            Button_Download_UnionServer.Attributes.Add("onmouseout", "this.className='button_masterpage_union_stat'");
+            Button_Download_UnionClient.Attributes.Add("onmouseover", "this.className='button_masterpage_union_mouse_over'");
+            Button_Download_UnionClient.Attributes.Add("onmouseout", "this.className='button_masterpage_union_stat'");
+            Button_Git_Site.Attributes.Add("onmouseout", "this.className='button_github_stat'");
+            Button_Git_Site.Attributes.Add("onmouseover", "this.className='button_github_over'");
             prv_Check_RegistrBase();
             prv_Check_UserSignIn();
         }

@@ -46,21 +46,15 @@
         .auto-style15 {
             background-color: #009933;
         }
-.button_mouse_out1 {
-    background-color: #0099FF;
-    color: white;
-}
+
 .button_mouse_out2 {
     background-color: #57c71b;
     color: white;
     cursor:pointer;
 }
-        
-        .button_mouse_over1 {
-          cursor: pointer;
-        background-color: white;
-            color: black;
-        }
+
+
+
 .div_1 {
     float:left;
     width:100%;
@@ -99,9 +93,9 @@
             color: #CCCCCC;
             height: 21px;
         }
-        .auto-style26 {
-            height: 86px;
-        }
+.auto-style26 {
+    height: 86px;
+}
         .auto-style27 {
             width: 18px;
             color: #CCCCCC;
@@ -119,3 +113,58 @@
         .auto-style33 {
             width: 4480px;
         }
+.button_union_mouse_out {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #009999;
+    color: #FFFFFF;
+    font-size: large;
+}
+.button_union_mouse_over {
+    background-color: white;
+    border-color:#009999;
+    color:#009999;
+}
+.button_github_stat {
+    color: #FFFFFF;
+    background-color: #602A80;
+    cursor: pointer;
+    border-style: none;
+}
+.button_github_over {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #602A80;
+    color: #602A80;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.button_masterpage_union_stat {
+    background-color: #0099FF;
+    color: white;
+    cursor: pointer;
+    border-style: none;
+}
+.button_masterpage_union_mouse_over {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0099FF;
+    cursor: pointer;
+    background-color: white;
+    color: #0099FF;
+     cursor: pointer;
+}
+.button_union_download_stat {
+    color: #FFFFFF;
+    background-color: #009999;
+    cursor: pointer;
+    border-style: none;
+}
+.button_union_download_over {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #009999;
+    color: #009999;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}

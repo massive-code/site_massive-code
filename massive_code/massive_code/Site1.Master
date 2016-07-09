@@ -40,8 +40,6 @@
         .auto-style51 {
             color: #FFFFFF;
         }
-        .новыйСтиль1 {
-        }
         .auto-style53 {
             width: 27299px;
             color: #CCCCCC;
@@ -50,6 +48,7 @@
         .auto-style54 {
             width: 27299px;
         }
+
     </style>
 </head>
 <body class="body" >
@@ -84,11 +83,11 @@
                 <td>
                     &nbsp;</td>
                 <td class="auto-style54">
-                    <asp:Button ID="Button_Download_UnionClient" runat="server" BorderStyle="None" CssClass=" button_mouse_out1" Font-Names="Times New Roman" Height="60px" PostBackUrl="~/union_client.aspx" style="font-size: 12pt" Text="FREE UNION CLIENT" Width="220px" />
+                    <asp:Button ID="Button_Download_UnionClient" runat="server" CssClass=" button_masterpage_union_stat" Font-Names="Times New Roman" Height="60px" PostBackUrl="~/union_client.aspx" style="font-size: 12pt" Text="FREE UNION CLIENT" Width="220px" />
                 &nbsp;
-                    <asp:Button ID="Button_Download_UnionServer" runat="server" BorderStyle="None" CssClass=" button_mouse_out1" Font-Names="Times New Roman" Height="60px" PostBackUrl="~/union_server.aspx" style="font-size: 12pt" Text="FREE UNION SERVER" Width="220px" />
+                    <asp:Button ID="Button_Download_UnionServer" runat="server" CssClass=" button_masterpage_union_stat" Font-Names="Times New Roman" Height="60px" PostBackUrl="~/union_server.aspx" style="font-size: 12pt" Text="FREE UNION SERVER" Width="220px" />
                 &nbsp;
-                    <asp:Button ID="Button_Git_Site" runat="server" BorderStyle="None" CssClass="новыйСтиль1" Font-Names="Times New Roman" Height="60px" style="font-size: 12pt; color: #FFFFFF; background-color: #602A80;" Text="MASSIVE CODE GITHUB" Width="220px" OnClick="Button_Git_Site_Click" />
+                    <asp:Button ID="Button_Git_Site" runat="server" Font-Names="Times New Roman" Height="60px" style="font-size: 12pt;" Text="MASSIVE CODE GITHUB" Width="220px" OnClick="Button_Git_Site_Click" CssClass="button_github_stat" />
                 </td>
                 <td class="auto-style19">
                     </td>

@@ -11,7 +11,11 @@ namespace massive_code
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Button_Download_UnionClient.Attributes.Add("onmouseover", "this.className='button_union_download_over'");
+            Button_Download_UnionClient.Attributes.Add("onmouseout", "this.className='button_union_download_stat'");
 
+            Button_GIT_Click.Attributes.Add("onmouseover", "this.className='button_github_over'");
+            Button_GIT_Click.Attributes.Add("onmouseout", "this.className='button_github_stat'");
         }
 
         protected void Button_GIT_Click_Click(object sender, EventArgs e)

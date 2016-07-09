@@ -66,6 +66,7 @@
         .новыйСтиль3 {
             text-align: center;
         }
+
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -87,7 +88,7 @@
         <td class="auto-style57">&nbsp;</td>
         <td class="auto-style58">&nbsp;</td>
         <td class="auto-style60">
-            <asp:Button ID="Button_Download_UnionClient" runat="server" BorderStyle="Solid" CssClass="button_mouse_out1_1" Font-Names="Times New Roman" Height="42px" OnClick="Button_Download_UnionClient_Click" style="font-size: large; text-align: center; color: #FFFFFF; background-color: #009999;" Text="DOWNLOAD" Width="244px" />
+            <asp:Button ID="Button_Download_UnionClient" runat="server" BorderStyle="Solid" CssClass="button_union_download_stat" Font-Names="Times New Roman" Height="42px" OnClick="Button_Download_UnionClient_Click" style="font-size: large; text-align: center;" Text="DOWNLOAD" Width="244px" />
         </td>
         <td>&nbsp;</td>
     </tr>
@@ -98,7 +99,7 @@
         <td class="auto-style57">&nbsp;</td>
         <td class="auto-style58">&nbsp;</td>
         <td class="новыйСтиль3">
-            <asp:Button ID="Button_GIT_Click" runat="server" BorderStyle="Solid" CssClass="button_mouse_out1_1" Font-Names="Times New Roman" Height="42px" OnClick="Button_GIT_Click_Click" style="font-size: large; text-align: center; color: #FFFFFF; background-color: #653A7E;" Text="UNION CLIENT GITHIB" Width="243px" />
+            <asp:Button ID="Button_GIT_Click" runat="server" CssClass="button_github_stat" Font-Names="Times New Roman" Height="42px" OnClick="Button_GIT_Click_Click" style="font-size: large; text-align: center;" Text="UNION CLIENT GITHIB" Width="243px" />
         </td>
         <td>&nbsp;</td>
     </tr>
