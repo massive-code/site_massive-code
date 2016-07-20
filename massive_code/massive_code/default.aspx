@@ -7,11 +7,12 @@
         }
         .auto-style51 {
             width: 574px;
+            background-color: #186A92;
         }
         .auto-style52 {
             height: 105px;
             width: 574px;
-            background-color: #5BAABB;
+            background-color: #186A92;
         }
         .auto-style55 {
             width: 574px;
@@ -31,17 +32,21 @@
             height: 151px;
         }
 
-        .auto-style60 {
-             height: 105px;
+        .auto-style61 {
+            height: 14px;
             width: 574px;
-            background-color: #958080;
+            background-color: #FFFFFF;
+        }
+        .auto-style62 {
+            height: 14px;
+            color: #FFFFFF;
         }
 
     </style>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    
     <table style="width: 100%;">
         <tr>
             <td class="auto-style55"></td>
@@ -60,19 +65,30 @@
             <td class="auto-style50">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style51">&nbsp;</td>
-            <td class="auto-style60">
-                <asp:Image ID="Image2" runat="server" ImageAlign="Left" ImageUrl="~/Images/img_default_2.png" Width="150px" />
-                    <table style="width: 73%; height: 145px;">
+            <td class="auto-style61">
+            </td>
+            <td class="auto-style62"></td>
+        </tr>
+        <tr>
+            <td class="auto-style51">
+                <asp:Image ID="Image3" runat="server" ImageAlign="Left" ImageUrl="~/Images/img_default_2.png" Width="150px" />
+                <table style="width: 73%; height: 145px; background-color: #">
                     <tr>
                         <td class="auto-style57"></td>
                         <td class="auto-style59">Union Solution - система социального общения в корпоративной сети. Изучите все части программы и разработайте на этой основе свой будущий проект. Используйте отдельные компоненты Union в качестве готовых шаблонов.</td>
                     </tr>
                 </table>
+            </td>
+            <td">
                 </td>
         </tr>
         <tr>
             <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            
             <td>&nbsp;</td>
         </tr>
     </table>
