@@ -23,3 +23,11 @@ C:\Users\Cezar\Documents\GitHub\site_massive-code\massive_code\massive_code\obj\
 C:\Users\Cezar\Documents\GitHub\site_massive-code\massive_code\massive_code\obj\Debug\massive_code.dll
 C:\Users\Cezar\Documents\GitHub\site_massive-code\massive_code\massive_code\obj\Debug\massive_code.pdb
 C:\Users\Cezar\Documents\GitHub\site_massive-code\massive_code\massive_code\bin\AjaxControlToolkit.dll
+C:\Users\Lestat\Documents\GitHub\site_massive-code\massive_code\massive_code\bin\massive_code.dll.config
+C:\Users\Lestat\Documents\GitHub\site_massive-code\massive_code\massive_code\bin\massive_code.dll
+C:\Users\Lestat\Documents\GitHub\site_massive-code\massive_code\massive_code\bin\massive_code.pdb
+C:\Users\Lestat\Documents\GitHub\site_massive-code\massive_code\massive_code\bin\AjaxControlToolkit.dll
+C:\Users\Lestat\Documents\GitHub\site_massive-code\massive_code\massive_code\obj\Debug\massive_code.csprojResolveAssemblyReference.cache
+C:\Users\Lestat\Documents\GitHub\site_massive-code\massive_code\massive_code\obj\Debug\massive_code.dll.licenses
+C:\Users\Lestat\Documents\GitHub\site_massive-code\massive_code\massive_code\obj\Debug\massive_code.dll
+C:\Users\Lestat\Documents\GitHub\site_massive-code\massive_code\massive_code\obj\Debug\massive_code.pdb

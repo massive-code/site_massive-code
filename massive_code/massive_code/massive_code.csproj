@@ -44,6 +44,11 @@
     <Reference Include="AjaxControlToolkit">
       <HintPath>..\packages\AjaxControlToolkit.16.1.0.0\lib\net40\AjaxControlToolkit.dll</HintPath>
     </Reference>
+    <Reference Include="DevExpress.Data.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
@@ -71,10 +76,17 @@
     <Content Include="default.aspx" />
     <Content Include="develop.aspx" />
     <Content Include="feedback.aspx" />
+    <Content Include="Images\background_image_white_solid.png" />
+    <Content Include="Images\client\Cl_1.PNG" />
+    <Content Include="Images\client\Cl_3.PNG" />
+    <Content Include="Images\client\Cl_4.PNG" />
     <Content Include="Images\img_default_1.png" />
     <Content Include="Images\img_default_2.png" />
     <Content Include="Images\img_user_exit.png" />
     <Content Include="Images\img_user_icon.png" />
+    <Content Include="Images\server\Se_1.PNG" />
+    <Content Include="Images\server\Se_2.PNG" />
+    <Content Include="Images\server\Se_3.PNG" />
     <Content Include="information.aspx" />
     <Content Include="panel.aspx" />
     <Content Include="registration.aspx" />
@@ -182,6 +194,9 @@
     <Folder Include="App_Data\Code\" />
     <Folder Include="App_Data\Libraries\" />
     <Folder Include="App_Data\Text\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
